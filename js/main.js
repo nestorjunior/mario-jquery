@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    //Button Click Here
-    $('a.btn-custom').click(function(){
-        alert("Mario is running to find the princess...");
+    
+    $('.btn-custom').click(function(){
+        $('img').effect('bounce', {times:3}, '500');
     });
 
     $(document).keydown(function(key){
@@ -24,4 +24,5 @@ $(document).ready(function(){
                 break;
         }  
     });
+
 });
