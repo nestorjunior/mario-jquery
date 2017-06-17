@@ -2,6 +2,8 @@
 
 Simple game of Super Mario Bros.
 
+![mario](https://user-images.githubusercontent.com/636279/27250852-cf4c46ac-530f-11e7-9cc0-a2accb5ab770.jpg)
+
 ## Installation
 
 This application was built using:
