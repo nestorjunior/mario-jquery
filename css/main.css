@@ -1,6 +1,12 @@
 .container{
     padding-top: 50px;
 }
+
+.jumbotron h1 {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
 .p-button {
     padding-top: 50px;
 }
