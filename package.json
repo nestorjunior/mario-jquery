@@ -1,0 +1,30 @@
+{
+  "name": "mario-jquery",
+  "version": "1.0.0",
+  "description": "Simple game of Mario Bros.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestorjunior/mario-jquery.git"
+  },
+  "keywords": [
+    "mario",
+    "game",
+    "jquery",
+    "studies",
+    "javascript"
+  ],
+  "author": "Nestor Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestorjunior/mario-jquery/issues"
+  },
+  "homepage": "https://github.com/nestorjunior/mario-jquery#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7"
+  }
+}
