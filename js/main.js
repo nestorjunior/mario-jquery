@@ -1,9 +1,10 @@
 $(document).ready(function(){
-    
+    // Jump the Mario
     $('.btn-custom').click(function(){
         $('img').effect('bounce', {times:3}, '500');
     });
 
+    //Running the Mario
     $(document).keydown(function(key){
         switch (parseInt(key.which,10)) {
             // Left arrow key pressed
@@ -23,6 +24,11 @@ $(document).ready(function(){
                 $('img').animate({top:'+10px'}, 'fast');
                 break;
         }  
+    });
+
+    //Secret: Explode the Mario
+    $('img').dblclick(function(){
+        $(this).toggle('explode');
     });
 
 });
